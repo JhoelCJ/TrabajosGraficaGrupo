@@ -1,0 +1,10 @@
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\bin\Debug\ProyectoFiguras.exe.config
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\bin\Debug\ProyectoFiguras.exe
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\bin\Debug\ProyectoFiguras.pdb
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.csproj.AssemblyReference.cache
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.Form1.resources
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.Properties.Resources.resources
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.csproj.GenerateResource.cache
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.csproj.CoreCompileInputs.cache
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.exe
+D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.pdb
