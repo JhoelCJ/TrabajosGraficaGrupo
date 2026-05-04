@@ -1,0 +1,363 @@
+﻿namespace ProyectoFiguras
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.mnuFiguras = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPoligonosRegulares = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPoligonosIrregulares = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCurvasCirculares = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCompuestasEspeciales = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuKite = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuOctagon = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPie = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuHeart = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuRhombus = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblValor1 = new System.Windows.Forms.Label();
+            this.lblValor2 = new System.Windows.Forms.Label();
+            this.txtValor1 = new System.Windows.Forms.TextBox();
+            this.txtValor2 = new System.Windows.Forms.TextBox();
+            this.btnDibujar = new System.Windows.Forms.Button();
+            this.lblArea = new System.Windows.Forms.Label();
+            this.lblPerimetro = new System.Windows.Forms.Label();
+            this.pnlDibujo = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabImagen = new System.Windows.Forms.TabPage();
+            this.picFigura = new System.Windows.Forms.PictureBox();
+            this.lblImagenInfo = new System.Windows.Forms.Label();
+            this.tabGrafica = new System.Windows.Forms.TabPage();
+            this.menuStrip1.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabImagen.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picFigura)).BeginInit();
+            this.tabGrafica.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuFiguras});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // mnuFiguras
+            // 
+            this.mnuFiguras.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuPoligonosRegulares,
+            this.mnuPoligonosIrregulares,
+            this.mnuCurvasCirculares,
+            this.mnuCompuestasEspeciales});
+            this.mnuFiguras.Name = "mnuFiguras";
+            this.mnuFiguras.Size = new System.Drawing.Size(57, 20);
+            this.mnuFiguras.Text = "Figuras";
+
+            // 
+            // mnuPoligonosRegulares
+            // 
+            this.mnuPoligonosRegulares.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuOctagon});
+            this.mnuPoligonosRegulares.Name = "mnuPoligonosRegulares";
+            this.mnuPoligonosRegulares.Size = new System.Drawing.Size(236, 22);
+            this.mnuPoligonosRegulares.Text = "Polígonos Regulares";
+
+            // 
+            // mnuPoligonosIrregulares
+            // 
+            this.mnuPoligonosIrregulares.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuRhombus,
+            this.mnuKite});
+            this.mnuPoligonosIrregulares.Name = "mnuPoligonosIrregulares";
+            this.mnuPoligonosIrregulares.Size = new System.Drawing.Size(236, 22);
+            this.mnuPoligonosIrregulares.Text = "Polígonos Irregulares";
+
+            // 
+            // mnuCurvasCirculares
+            // 
+            this.mnuCurvasCirculares.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuPie});
+            this.mnuCurvasCirculares.Name = "mnuCurvasCirculares";
+            this.mnuCurvasCirculares.Size = new System.Drawing.Size(236, 22);
+            this.mnuCurvasCirculares.Text = "Figuras Curvas y Circulares";
+
+            // 
+            // mnuCompuestasEspeciales
+            // 
+            this.mnuCompuestasEspeciales.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuHeart});
+            this.mnuCompuestasEspeciales.Name = "mnuCompuestasEspeciales";
+            this.mnuCompuestasEspeciales.Size = new System.Drawing.Size(236, 22);
+            this.mnuCompuestasEspeciales.Text = "Figuras Compuestas o Especiales";
+            // 
+            // mnuKite
+            // 
+            this.mnuKite.Name = "mnuKite";
+            this.mnuKite.Size = new System.Drawing.Size(180, 22);
+            this.mnuKite.Text = "Kite";
+            this.mnuKite.Click += new System.EventHandler(this.mnuKite_Click);
+            // 
+            // mnuOctagon
+            // 
+            this.mnuOctagon.Name = "mnuOctagon";
+            this.mnuOctagon.Size = new System.Drawing.Size(180, 22);
+            this.mnuOctagon.Text = "Octagon";
+            this.mnuOctagon.Click += new System.EventHandler(this.mnuOctagon_Click);
+            // 
+            // mnuPie
+            // 
+            this.mnuPie.Name = "mnuPie";
+            this.mnuPie.Size = new System.Drawing.Size(180, 22);
+            this.mnuPie.Text = "Pie";
+            this.mnuPie.Click += new System.EventHandler(this.mnuPie_Click);
+            // 
+            // mnuHeart
+            // 
+            this.mnuHeart.Name = "mnuHeart";
+            this.mnuHeart.Size = new System.Drawing.Size(180, 22);
+            this.mnuHeart.Text = "Heart";
+            this.mnuHeart.Click += new System.EventHandler(this.mnuHeart_Click);
+            // 
+            // mnuRhombus
+            // 
+            this.mnuRhombus.Name = "mnuRhombus";
+            this.mnuRhombus.Size = new System.Drawing.Size(180, 22);
+            this.mnuRhombus.Text = "Rhombus";
+            this.mnuRhombus.Click += new System.EventHandler(this.mnuRhombus_Click);
+            // 
+            // lblValor1
+            // 
+            this.lblValor1.AutoSize = true;
+            this.lblValor1.Location = new System.Drawing.Point(32, 58);
+            this.lblValor1.Name = "lblValor1";
+            this.lblValor1.Size = new System.Drawing.Size(40, 13);
+            this.lblValor1.TabIndex = 1;
+            this.lblValor1.Text = "Valor 1";
+            // 
+            // lblValor2
+            // 
+            this.lblValor2.AutoSize = true;
+            this.lblValor2.Location = new System.Drawing.Point(32, 96);
+            this.lblValor2.Name = "lblValor2";
+            this.lblValor2.Size = new System.Drawing.Size(40, 13);
+            this.lblValor2.TabIndex = 2;
+            this.lblValor2.Text = "Valor 2";
+            // 
+            // txtValor1
+            // 
+            this.txtValor1.Location = new System.Drawing.Point(92, 58);
+            this.txtValor1.Name = "txtValor1";
+            this.txtValor1.Size = new System.Drawing.Size(100, 20);
+            this.txtValor1.TabIndex = 3;
+            // 
+            // txtValor2
+            // 
+            this.txtValor2.Location = new System.Drawing.Point(92, 96);
+            this.txtValor2.Name = "txtValor2";
+            this.txtValor2.Size = new System.Drawing.Size(100, 20);
+            this.txtValor2.TabIndex = 4;
+            // 
+            // btnDibujar
+            // 
+            this.btnDibujar.Location = new System.Drawing.Point(32, 163);
+            this.btnDibujar.Name = "btnDibujar";
+            this.btnDibujar.Size = new System.Drawing.Size(75, 23);
+            this.btnDibujar.TabIndex = 5;
+            this.btnDibujar.Text = "Dibujar";
+            this.btnDibujar.UseVisualStyleBackColor = true;
+            this.btnDibujar.Click += new System.EventHandler(this.btnDibujar_Click);
+            // 
+            // lblArea
+            // 
+            this.lblArea.AutoSize = true;
+            this.lblArea.Location = new System.Drawing.Point(32, 222);
+            this.lblArea.Name = "lblArea";
+            this.lblArea.Size = new System.Drawing.Size(32, 13);
+            this.lblArea.TabIndex = 6;
+            this.lblArea.Text = "Area:";
+            // 
+            // lblPerimetro
+            // 
+            this.lblPerimetro.AutoSize = true;
+            this.lblPerimetro.Location = new System.Drawing.Point(32, 263);
+            this.lblPerimetro.Name = "lblPerimetro";
+            this.lblPerimetro.Size = new System.Drawing.Size(54, 13);
+            this.lblPerimetro.TabIndex = 7;
+            this.lblPerimetro.Text = "Perimetro:";
+            // 
+            // pnlDibujo
+            // 
+            this.pnlDibujo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlDibujo.Location = new System.Drawing.Point(3, 3);
+            this.pnlDibujo.Name = "pnlDibujo";
+            this.pnlDibujo.Size = new System.Drawing.Size(427, 356);
+            this.pnlDibujo.TabIndex = 8;
+            this.pnlDibujo.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlDibujo_Paint);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(347, 31);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Figura:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(32, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(110, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Seleccione una figura";
+
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabImagen);
+            this.tabControl1.Controls.Add(this.tabGrafica);
+            this.tabControl1.Location = new System.Drawing.Point(347, 50);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(441, 388);
+            this.tabControl1.TabIndex = 11;
+
+            // 
+            // tabImagen
+            // 
+            this.tabImagen.Controls.Add(this.picFigura);
+            this.tabImagen.Controls.Add(this.lblImagenInfo);
+            this.tabImagen.Location = new System.Drawing.Point(4, 22);
+            this.tabImagen.Name = "tabImagen";
+            this.tabImagen.Padding = new System.Windows.Forms.Padding(3);
+            this.tabImagen.Size = new System.Drawing.Size(433, 362);
+            this.tabImagen.TabIndex = 0;
+            this.tabImagen.Text = "Imagen";
+            this.tabImagen.UseVisualStyleBackColor = true;
+
+            // 
+            // picFigura
+            // 
+            this.picFigura.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picFigura.Location = new System.Drawing.Point(3, 3);
+            this.picFigura.Name = "picFigura";
+            this.picFigura.Size = new System.Drawing.Size(427, 339);
+            this.picFigura.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picFigura.TabIndex = 0;
+            this.picFigura.TabStop = false;
+
+            // 
+            // lblImagenInfo
+            // 
+            this.lblImagenInfo.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lblImagenInfo.Location = new System.Drawing.Point(3, 342);
+            this.lblImagenInfo.Name = "lblImagenInfo";
+            this.lblImagenInfo.Size = new System.Drawing.Size(427, 17);
+            this.lblImagenInfo.TabIndex = 1;
+            this.lblImagenInfo.Text = "(Aquí irá la imagen de referencia de la figura)";
+
+            // 
+            // tabGrafica
+            // 
+            this.tabGrafica.Controls.Add(this.pnlDibujo);
+            this.tabGrafica.Location = new System.Drawing.Point(4, 22);
+            this.tabGrafica.Name = "tabGrafica";
+            this.tabGrafica.Padding = new System.Windows.Forms.Padding(3);
+            this.tabGrafica.Size = new System.Drawing.Size(433, 362);
+            this.tabGrafica.TabIndex = 1;
+            this.tabGrafica.Text = "Gráfica";
+            this.tabGrafica.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.lblPerimetro);
+            this.Controls.Add(this.lblArea);
+            this.Controls.Add(this.btnDibujar);
+            this.Controls.Add(this.txtValor2);
+            this.Controls.Add(this.txtValor1);
+            this.Controls.Add(this.lblValor2);
+            this.Controls.Add(this.lblValor1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.SetChildIndex(this.menuStrip1, 0);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabImagen.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picFigura)).EndInit();
+            this.tabGrafica.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem mnuFiguras;
+        private System.Windows.Forms.ToolStripMenuItem mnuPoligonosRegulares;
+        private System.Windows.Forms.ToolStripMenuItem mnuPoligonosIrregulares;
+        private System.Windows.Forms.ToolStripMenuItem mnuCurvasCirculares;
+        private System.Windows.Forms.ToolStripMenuItem mnuCompuestasEspeciales;
+        private System.Windows.Forms.ToolStripMenuItem mnuKite;
+        private System.Windows.Forms.ToolStripMenuItem mnuOctagon;
+        private System.Windows.Forms.ToolStripMenuItem mnuPie;
+        private System.Windows.Forms.ToolStripMenuItem mnuHeart;
+        private System.Windows.Forms.ToolStripMenuItem mnuRhombus;
+        private System.Windows.Forms.Label lblValor1;
+        private System.Windows.Forms.Label lblValor2;
+        private System.Windows.Forms.TextBox txtValor1;
+        private System.Windows.Forms.TextBox txtValor2;
+        private System.Windows.Forms.Button btnDibujar;
+        private System.Windows.Forms.Label lblArea;
+        private System.Windows.Forms.Label lblPerimetro;
+        private System.Windows.Forms.Panel pnlDibujo;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabImagen;
+        private System.Windows.Forms.TabPage tabGrafica;
+        private System.Windows.Forms.PictureBox picFigura;
+        private System.Windows.Forms.Label lblImagenInfo;
+    }
+}
+

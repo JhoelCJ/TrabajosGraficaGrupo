@@ -1,0 +1,176 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ProyectoFiguras
+{
+    public partial class Form1 : Form
+    {
+        private bool mostrarBienvenida = true;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Mostrar el mensaje de bienvenida al cargar el formulario
+            mostrarBienvenida = true;
+            this.pnlDibujo.BackColor = Color.White;
+            this.pnlDibujo.Invalidate();
+        }
+
+        private void mnuInicio_Click(object sender, EventArgs e)
+        {
+            // Ocultar los controles de entrada
+            this.lblValor1.Visible = false;
+            this.lblValor2.Visible = false;
+            this.txtValor1.Visible = false;
+            this.txtValor2.Visible = false;
+            this.btnDibujar.Visible = false;
+
+            // Limpiar los campos de texto
+            this.txtValor1.Clear();
+            this.txtValor2.Clear();
+
+            // Limpiar las etiquetas de resultado
+            this.lblArea.Text = "Area:";
+            this.lblPerimetro.Text = "Perimetro:";
+
+            // Indicar que mostrar bienvenida
+            mostrarBienvenida = true;
+            this.pnlDibujo.BackColor = Color.White;
+            this.pnlDibujo.Invalidate();
+        }
+
+        private void mnuOctagon_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Octagon");
+        }
+
+        private void mnuHexagon_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Hexagon");
+        }
+
+        private void mnuKite_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Kite");
+        }
+
+        private void mnuRhombus_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Rhombus");
+        }
+
+        private void mnuPie_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Pie");
+        }
+
+        private void mnuCrescent_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Crescent");
+        }
+
+        private void mnuSemicircle_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Semicircle");
+        }
+
+        private void mnuHeart_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Heart");
+        }
+
+        private void mnuTrefoil_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Trefoil");
+        }
+
+        private void mnuCross_Click(object sender, EventArgs e)
+        {
+            MostrarControles("Cross");
+        }
+
+        private void mnuPoligonosIrregulares_Click(object sender, EventArgs e)
+        {
+            // Evento para polígonos irregulares
+        }
+
+        private void lblValor1_Click(object sender, EventArgs e)
+        {
+            // Evento del label
+        }
+
+        private void btnDibujar_Click(object sender, EventArgs e)
+        {
+            // Implementar lógica para Dibujar
+        }
+
+        private void pnlDibujo_Paint(object sender, PaintEventArgs e)
+        {
+            // Siempre limpiar con blanco primero
+            e.Graphics.Clear(Color.White);
+
+            if (mostrarBienvenida)
+            {
+                // Configurar la fuente y el color del texto
+                using (Font fuente = new Font("Arial", 32, FontStyle.Bold))
+                using (Brush pincel = new SolidBrush(Color.DarkBlue))
+                {
+                    // Calcular la posición del texto en el centro
+                    string mensaje = "¡Bienvenido!";
+                    SizeF tamaño = e.Graphics.MeasureString(mensaje, fuente);
+                    float x = (this.pnlDibujo.Width - tamaño.Width) / 2;
+                    float y = (this.pnlDibujo.Height - tamaño.Height) / 2;
+
+                    // Dibujar el mensaje
+                    e.Graphics.DrawString(mensaje, fuente, pincel, x, y);
+                }
+            }
+        }
+
+        private void MostrarControles(string figura)
+        {
+            // Mostrar los controles de entrada
+            lblValor1.Visible = true;
+            lblValor2.Visible = true;
+            txtValor1.Visible = true;
+            txtValor2.Visible = true;
+            btnDibujar.Visible = true;
+
+            // Indicar que no mostrar bienvenida
+            mostrarBienvenida = false;
+
+            // Limpiar el panel
+            pnlDibujo.BackColor = Color.White;
+            pnlDibujo.Invalidate();
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
+            this.ResumeLayout(false);
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

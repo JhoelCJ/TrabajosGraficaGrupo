@@ -1,0 +1,129 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace ProyectoFiguras
+{
+    public partial class Form1 : Form
+    {
+        private string figuraSeleccionada = "";
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void ActivarControles(string nombreFigura, string nombreValor1, bool requiereDosValores = false, string nombreValor2 = "")
+        {
+            figuraSeleccionada = nombreFigura;
+
+            // Configurar el primer valor
+            lblValor1.Text = nombreValor1 + ":";
+            lblValor1.Visible = true;
+            txtValor1.Visible = true;
+            txtValor1.Clear();
+
+            // Configurar el segundo valor si se requiere
+            if (requiereDosValores)
+            {
+                lblValor2.Text = nombreValor2 + ":";
+                lblValor2.Visible = true;
+                txtValor2.Visible = true;
+                txtValor2.Clear();
+            }
+            else
+            {
+                lblValor2.Visible = false;
+                txtValor2.Visible = false;
+            }
+
+            // Mostrar el botón y reiniciar etiquetas
+            btnDibujar.Visible = true;
+            lblArea.Text = "Area:";
+            lblPerimetro.Text = "Perimetro:";
+
+            // Limpiar el panel
+            pnlDibujo.Invalidate();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void mnuOctagon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuHexagon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuKite_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuRhombus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuPie_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuCrescent_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuSemicircle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuHeart_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuTrefoil_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuCross_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mnuPoligonosIrregulares_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblValor1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDibujar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlDibujo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+    }
+}

@@ -1,0 +1,403 @@
+﻿namespace ProyectoFiguras
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.mnuFiguras = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPoligonosRegulares = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuOctagon = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuHexagon = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPoligonosIrregulares = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuKite = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCuadrilateros = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuRhombus = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCurvasCirculares = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuPie = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCrescent = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCompuestasEspeciales = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuHeart = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuTrefoil = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuCross = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSemicircle = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblValor1 = new System.Windows.Forms.Label();
+            this.lblValor2 = new System.Windows.Forms.Label();
+            this.txtValor1 = new System.Windows.Forms.TextBox();
+            this.txtValor2 = new System.Windows.Forms.TextBox();
+            this.btnDibujar = new System.Windows.Forms.Button();
+            this.lblArea = new System.Windows.Forms.Label();
+            this.lblPerimetro = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.tabGrafica = new System.Windows.Forms.TabPage();
+            this.pnlDibujo = new System.Windows.Forms.Panel();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.menuStrip1.SuspendLayout();
+            this.tabGrafica.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuInicio,
+            this.mnuFiguras});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // mnuInicio
+            // 
+            this.mnuInicio.Name = "mnuInicio";
+            this.mnuInicio.Size = new System.Drawing.Size(60, 24);
+            this.mnuInicio.Text = "Inicio";
+            this.mnuInicio.Click += new System.EventHandler(this.mnuInicio_Click);
+            // 
+            // mnuFiguras
+            // 
+            this.mnuFiguras.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuPoligonosRegulares,
+            this.mnuPoligonosIrregulares,
+            this.mnuCuadrilateros,
+            this.mnuCurvasCirculares,
+            this.mnuCompuestasEspeciales});
+            this.mnuFiguras.Name = "mnuFiguras";
+            this.mnuFiguras.Size = new System.Drawing.Size(70, 24);
+            this.mnuFiguras.Text = "Figuras";
+            // 
+            // mnuPoligonosRegulares
+            // 
+            this.mnuPoligonosRegulares.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuOctagon,
+            this.mnuHexagon});
+            this.mnuPoligonosRegulares.Name = "mnuPoligonosRegulares";
+            this.mnuPoligonosRegulares.Size = new System.Drawing.Size(309, 26);
+            this.mnuPoligonosRegulares.Text = "Polígonos Regulares";
+            // 
+            // mnuOctagon
+            // 
+            this.mnuOctagon.Name = "mnuOctagon";
+            this.mnuOctagon.Size = new System.Drawing.Size(152, 26);
+            this.mnuOctagon.Text = "Octagon";
+            this.mnuOctagon.Click += new System.EventHandler(this.mnuOctagon_Click);
+            // 
+            // mnuHexagon
+            // 
+            this.mnuHexagon.Name = "mnuHexagon";
+            this.mnuHexagon.Size = new System.Drawing.Size(152, 26);
+            this.mnuHexagon.Text = "Hexagon";
+            this.mnuHexagon.Click += new System.EventHandler(this.mnuHexagon_Click);
+            // 
+            // mnuPoligonosIrregulares
+            // 
+            this.mnuPoligonosIrregulares.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuKite});
+            this.mnuPoligonosIrregulares.Name = "mnuPoligonosIrregulares";
+            this.mnuPoligonosIrregulares.Size = new System.Drawing.Size(309, 26);
+            this.mnuPoligonosIrregulares.Text = "Polígonos Irregulares";
+            this.mnuPoligonosIrregulares.Click += new System.EventHandler(this.mnuPoligonosIrregulares_Click);
+            // 
+            // mnuKite
+            // 
+            this.mnuKite.Name = "mnuKite";
+            this.mnuKite.Size = new System.Drawing.Size(118, 26);
+            this.mnuKite.Text = "Kite";
+            this.mnuKite.Click += new System.EventHandler(this.mnuKite_Click);
+            // 
+            // mnuCuadrilateros
+            // 
+            this.mnuCuadrilateros.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuRhombus});
+            this.mnuCuadrilateros.Name = "mnuCuadrilateros";
+            this.mnuCuadrilateros.Size = new System.Drawing.Size(309, 26);
+            this.mnuCuadrilateros.Text = "Cuadriláteros";
+            // 
+            // mnuRhombus
+            // 
+            this.mnuRhombus.Name = "mnuRhombus";
+            this.mnuRhombus.Size = new System.Drawing.Size(154, 26);
+            this.mnuRhombus.Text = "Rhombus";
+            this.mnuRhombus.Click += new System.EventHandler(this.mnuRhombus_Click);
+            // 
+            // mnuCurvasCirculares
+            // 
+            this.mnuCurvasCirculares.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuPie,
+            this.mnuCrescent,
+            this.mnuSemicircle});
+            this.mnuCurvasCirculares.Name = "mnuCurvasCirculares";
+            this.mnuCurvasCirculares.Size = new System.Drawing.Size(309, 26);
+            this.mnuCurvasCirculares.Text = "Figuras Curvas y Circulares";
+            // 
+            // mnuPie
+            // 
+            this.mnuPie.Name = "mnuPie";
+            this.mnuPie.Size = new System.Drawing.Size(112, 26);
+            this.mnuPie.Text = "Pie";
+            this.mnuPie.Click += new System.EventHandler(this.mnuPie_Click);
+
+            // 
+            // mnuCrescent
+            // 
+            this.mnuCrescent.Name = "mnuCrescent";
+            this.mnuCrescent.Size = new System.Drawing.Size(224, 26);
+            this.mnuCrescent.Text = "Crescent";
+            this.mnuCrescent.Click += new System.EventHandler(this.mnuCrescent_Click);
+            // 
+            // mnuSemicircle
+            // 
+            this.mnuSemicircle.Name = "mnuSemicircle";
+            this.mnuSemicircle.Size = new System.Drawing.Size(224, 26);
+            this.mnuSemicircle.Text = "Semicircle";
+            this.mnuSemicircle.Click += new System.EventHandler(this.mnuSemicircle_Click);
+            // 
+            // mnuCompuestasEspeciales
+            // 
+            this.mnuCompuestasEspeciales.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuHeart,
+            this.mnuTrefoil,
+            this.mnuCross});
+            this.mnuCompuestasEspeciales.Name = "mnuCompuestasEspeciales";
+            this.mnuCompuestasEspeciales.Size = new System.Drawing.Size(309, 26);
+            this.mnuCompuestasEspeciales.Text = "Figuras Compuestas o Especiales";
+            // 
+            // mnuHeart
+            // 
+            this.mnuHeart.Name = "mnuHeart";
+            this.mnuHeart.Size = new System.Drawing.Size(134, 26);
+            this.mnuHeart.Text = "Heart";
+            this.mnuHeart.Click += new System.EventHandler(this.mnuHeart_Click);
+            // 
+            // mnuTrefoil
+            // 
+            this.mnuTrefoil.Name = "mnuTrefoil";
+            this.mnuTrefoil.Size = new System.Drawing.Size(134, 26);
+            this.mnuTrefoil.Text = "Trefoil";
+            this.mnuTrefoil.Click += new System.EventHandler(this.mnuTrefoil_Click);
+            // 
+            // mnuCross
+            // 
+            this.mnuCross.Name = "mnuCross";
+            this.mnuCross.Size = new System.Drawing.Size(224, 26);
+            this.mnuCross.Text = "Cross";
+            this.mnuCross.Click += new System.EventHandler(this.mnuCross_Click);
+            // 
+            // lblValor1
+            // 
+            this.lblValor1.AutoSize = true;
+            this.lblValor1.Location = new System.Drawing.Point(43, 51);
+            this.lblValor1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblValor1.Name = "lblValor1";
+            this.lblValor1.Size = new System.Drawing.Size(49, 16);
+            this.lblValor1.TabIndex = 1;
+            this.lblValor1.Text = "Valor 1";
+            this.lblValor1.Visible = false;
+            this.lblValor1.Click += new System.EventHandler(this.lblValor1_Click);
+            // 
+            // lblValor2
+            // 
+            this.lblValor2.AutoSize = true;
+            this.lblValor2.Location = new System.Drawing.Point(43, 127);
+            this.lblValor2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblValor2.Name = "lblValor2";
+            this.lblValor2.Size = new System.Drawing.Size(49, 16);
+            this.lblValor2.TabIndex = 2;
+            this.lblValor2.Text = "Valor 2";
+            this.lblValor2.Visible = false;
+            // 
+            // txtValor1
+            // 
+            this.txtValor1.Location = new System.Drawing.Point(47, 71);
+            this.txtValor1.Margin = new System.Windows.Forms.Padding(4);
+            this.txtValor1.Name = "txtValor1";
+            this.txtValor1.Size = new System.Drawing.Size(132, 22);
+            this.txtValor1.TabIndex = 3;
+            this.txtValor1.Visible = false;
+            // 
+            // txtValor2
+            // 
+            this.txtValor2.Location = new System.Drawing.Point(47, 147);
+            this.txtValor2.Margin = new System.Windows.Forms.Padding(4);
+            this.txtValor2.Name = "txtValor2";
+            this.txtValor2.Size = new System.Drawing.Size(132, 22);
+            this.txtValor2.TabIndex = 4;
+            this.txtValor2.Visible = false;
+            // 
+            // btnDibujar
+            // 
+            this.btnDibujar.Location = new System.Drawing.Point(47, 214);
+            this.btnDibujar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDibujar.Name = "btnDibujar";
+            this.btnDibujar.Size = new System.Drawing.Size(100, 28);
+            this.btnDibujar.TabIndex = 5;
+            this.btnDibujar.Text = "Dibujar";
+            this.btnDibujar.UseVisualStyleBackColor = true;
+            this.btnDibujar.Visible = false;
+            this.btnDibujar.Click += new System.EventHandler(this.btnDibujar_Click);
+            // 
+            // lblArea
+            // 
+            this.lblArea.AutoSize = true;
+            this.lblArea.Location = new System.Drawing.Point(43, 273);
+            this.lblArea.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblArea.Name = "lblArea";
+            this.lblArea.Size = new System.Drawing.Size(39, 16);
+            this.lblArea.TabIndex = 6;
+            this.lblArea.Text = "Area:";
+            // 
+            // lblPerimetro
+            // 
+            this.lblPerimetro.AutoSize = true;
+            this.lblPerimetro.Location = new System.Drawing.Point(43, 324);
+            this.lblPerimetro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPerimetro.Name = "lblPerimetro";
+            this.lblPerimetro.Size = new System.Drawing.Size(68, 16);
+            this.lblPerimetro.TabIndex = 7;
+            this.lblPerimetro.Text = "Perimetro:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(463, 38);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(48, 16);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Figura:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(43, 15);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(136, 16);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Áreas y perímetros de figuras";
+            // 
+            // tabGrafica
+            // 
+            this.tabGrafica.Controls.Add(this.pnlDibujo);
+            this.tabGrafica.Location = new System.Drawing.Point(4, 25);
+            this.tabGrafica.Margin = new System.Windows.Forms.Padding(4);
+            this.tabGrafica.Name = "tabGrafica";
+            this.tabGrafica.Padding = new System.Windows.Forms.Padding(4);
+            this.tabGrafica.Size = new System.Drawing.Size(580, 449);
+            this.tabGrafica.TabIndex = 0;
+            this.tabGrafica.Text = "Gráfica";
+            this.tabGrafica.UseVisualStyleBackColor = true;
+            // 
+            // pnlDibujo
+            // 
+            this.pnlDibujo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlDibujo.Location = new System.Drawing.Point(4, 4);
+            this.pnlDibujo.Margin = new System.Windows.Forms.Padding(4);
+            this.pnlDibujo.Name = "pnlDibujo";
+            this.pnlDibujo.Size = new System.Drawing.Size(572, 441);
+            this.pnlDibujo.TabIndex = 8;
+            this.pnlDibujo.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlDibujo_Paint);
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabGrafica);
+            this.tabControl1.Location = new System.Drawing.Point(463, 62);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(588, 478);
+            this.tabControl1.TabIndex = 11;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.lblPerimetro);
+            this.Controls.Add(this.lblArea);
+            this.Controls.Add(this.btnDibujar);
+            this.Controls.Add(this.txtValor2);
+            this.Controls.Add(this.txtValor1);
+            this.Controls.Add(this.lblValor2);
+            this.Controls.Add(this.lblValor1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.tabGrafica.ResumeLayout(false);
+            this.tabControl1.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem mnuInicio;
+        private System.Windows.Forms.ToolStripMenuItem mnuFiguras;
+        private System.Windows.Forms.ToolStripMenuItem mnuPoligonosRegulares;
+        private System.Windows.Forms.ToolStripMenuItem mnuPoligonosIrregulares;
+        private System.Windows.Forms.ToolStripMenuItem mnuCuadrilateros;
+        private System.Windows.Forms.ToolStripMenuItem mnuCurvasCirculares;
+        private System.Windows.Forms.ToolStripMenuItem mnuCompuestasEspeciales;
+        private System.Windows.Forms.ToolStripMenuItem mnuKite;
+        private System.Windows.Forms.ToolStripMenuItem mnuOctagon;
+        private System.Windows.Forms.ToolStripMenuItem mnuHexagon;
+        private System.Windows.Forms.ToolStripMenuItem mnuPie;
+        private System.Windows.Forms.ToolStripMenuItem mnuCrescent;
+        private System.Windows.Forms.ToolStripMenuItem mnuSemicircle;
+        private System.Windows.Forms.ToolStripMenuItem mnuHeart;
+        private System.Windows.Forms.ToolStripMenuItem mnuTrefoil;
+        private System.Windows.Forms.ToolStripMenuItem mnuCross;
+        private System.Windows.Forms.ToolStripMenuItem mnuRhombus;
+        private System.Windows.Forms.Label lblValor1;
+        private System.Windows.Forms.Label lblValor2;
+        private System.Windows.Forms.TextBox txtValor1;
+        private System.Windows.Forms.TextBox txtValor2;
+        private System.Windows.Forms.Button btnDibujar;
+        private System.Windows.Forms.Label lblArea;
+        private System.Windows.Forms.Label lblPerimetro;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TabPage tabGrafica;
+        private System.Windows.Forms.Panel pnlDibujo;
+        private System.Windows.Forms.TabControl tabControl1;
+    }
+}
+

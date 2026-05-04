@@ -59,5 +59,61 @@ namespace ProyectoFiguras
         {
             return 8 * lado;
         }
+
+    }
+
+    public class Hexagon : Figura
+    {
+        double lado;
+
+        public Hexagon(double lado)
+        {
+            this.lado = lado;
+        }
+
+        public override void Dibujar(Graphics g, int ancho, int alto)
+        {
+            g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+
+            int cx = ancho / 2;
+            int cy = alto / 2;
+
+            double real = lado * 2;
+            double max = Math.Min(ancho, alto) * 0.8;
+
+            double escala = 1.0;
+            if (real > max)
+            {
+                escala = max / real;
+            }
+
+            int r = (int)(lado * escala);
+
+            Point[] puntos = new Point[6];
+            double offsetAng = -Math.PI / 6; // rota 30° para que quede “medio acostado” (punta arriba/abajo)
+            for (int i = 0; i < 6; i++)
+            {
+                double ang = offsetAng + (i * Math.PI / 3);
+                puntos[i] = new Point(
+                    cx + (int)(r * Math.Cos(ang)),
+                    cy + (int)(r * Math.Sin(ang))
+                );
+            }
+
+            using (var brush = new SolidBrush(Color.DeepSkyBlue))
+            {
+                g.FillPolygon(brush, puntos);
+            }
+        }
+
+        public override double Area()
+        {
+            return (3 * Math.Sqrt(3) / 2) * lado * lado;
+        }
+
+        public override double Perimetro()
+        {
+            return 6 * lado;
+        }
     }
 }

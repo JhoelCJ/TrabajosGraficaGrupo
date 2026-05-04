@@ -8,3 +8,12 @@ D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\o
 D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.csproj.CoreCompileInputs.cache
 D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.exe
 D:\UNIVERSIDAD\8vo Semestre (Quinto)\Grafica\2\ProyectoFiguras\ProyectoFiguras\obj\Debug\ProyectoFiguras.pdb
+C:\Users\DELL\Documents\Espe_GIT\TrabajosGraficaGrupo\ProyectoFiguras\bin\Debug\ProyectoFiguras.exe.config
+C:\Users\DELL\Documents\Espe_GIT\TrabajosGraficaGrupo\ProyectoFiguras\bin\Debug\ProyectoFiguras.exe
+C:\Users\DELL\Documents\Espe_GIT\TrabajosGraficaGrupo\ProyectoFiguras\bin\Debug\ProyectoFiguras.pdb
+C:\Users\DELL\Documents\Espe_GIT\TrabajosGraficaGrupo\ProyectoFiguras\obj\Debug\ProyectoFiguras.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Espe_GIT\TrabajosGraficaGrupo\ProyectoFiguras\obj\Debug\ProyectoFiguras.Properties.Resources.resources
+C:\Users\DELL\Documents\Espe_GIT\TrabajosGraficaGrupo\ProyectoFiguras\obj\Debug\ProyectoFiguras.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\Espe_GIT\TrabajosGraficaGrupo\ProyectoFiguras\obj\Debug\ProyectoFiguras.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Espe_GIT\TrabajosGraficaGrupo\ProyectoFiguras\obj\Debug\ProyectoFiguras.exe
+C:\Users\DELL\Documents\Espe_GIT\TrabajosGraficaGrupo\ProyectoFiguras\obj\Debug\ProyectoFiguras.pdb

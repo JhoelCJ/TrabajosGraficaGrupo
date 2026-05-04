@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|c:\\users\\dell\\documents\\espe_git\\trabajosgraficagrupo\\proyectofiguras\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|c:\\users\\dell\\documents\\espe_git\\trabajosgraficagrupo\\proyectofiguras\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|c:\\users\\dell\\documents\\espe_git\\trabajosgraficagrupo\\proyectofiguras\\octagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|solutionrelative:octagon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|c:\\users\\dell\\documents\\espe_git\\trabajosgraficagrupo\\proyectofiguras\\proyectofiguras\\semicircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|solutionrelative:proyectofiguras\\semicircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|c:\\users\\dell\\documents\\espe_git\\trabajosgraficagrupo\\proyectofiguras\\proyectofiguras\\cross.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|solutionrelative:proyectofiguras\\cross.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|c:\\users\\dell\\documents\\espe_git\\trabajosgraficagrupo\\proyectofiguras\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD483C94-DE0A-4A19-8175-914E0CEB8388}|ProyectoFiguras.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:07:24.738Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:01:14.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Octagon.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\Octagon.cs",
+              "RelativeDocumentMoniker": "Octagon.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\Octagon.cs",
+              "RelativeToolTip": "Octagon.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T03:51:21.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAEIBAAAAAAAAAABBwJkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T04:01:19.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Semicircle.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\ProyectoFiguras\\Semicircle.cs",
+              "RelativeDocumentMoniker": "ProyectoFiguras\\Semicircle.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\ProyectoFiguras\\Semicircle.cs",
+              "RelativeToolTip": "ProyectoFiguras\\Semicircle.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T02:17:03.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cross.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\ProyectoFiguras\\Cross.cs",
+              "RelativeDocumentMoniker": "ProyectoFiguras\\Cross.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Espe_GIT\\TrabajosGraficaGrupo\\ProyectoFiguras\\ProyectoFiguras\\Cross.cs",
+              "RelativeToolTip": "ProyectoFiguras\\Cross.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T01:54:15.937Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
